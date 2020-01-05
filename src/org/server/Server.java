@@ -114,7 +114,7 @@ public class Server extends Thread {
 				Message rmsg = new Message();
 				rmsg.messageId = Message.MessageID.LOGINRESPONSE;
 				//最后记得把true改成验证
-				if(suc) {
+				if(true) {
 					if(userStateList.get(msg.id) == UserState.Online) {
 						rmsg.info = "Already online";
 						rmsg.sc = 3;
@@ -136,6 +136,7 @@ public class Server extends Thread {
 					rmsg.info = "Login failed";
 					rmsg.sc = 2;
 				}
+				System.out.print(rmsg.sc);
 				return rmsg;
 			}
 			else if(msg.messageId == userMessage.MessageID.LOGOUT) {

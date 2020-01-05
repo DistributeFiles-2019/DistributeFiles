@@ -255,3 +255,16 @@ Connect remote: E:\t1\t11 /tmp/160.git 本地
 Connect remote success
 Manual update: E:\t1\t11 /tmp/160.git 本地
 Manual update success
+Try to login with id=616703,name=,password=
+Login failed
+Try to login with id=616703,name=xxd,password=xd
+Login failed
+Try to login with id=616703,name=xxd,password=xd
+Login failed
+Try to login with id=979502,name=xxd,password=xd
+Login failed
+Try to login with id=199691,name=,password=
+Login success
+New repo: E:\\t1
+
+Connect remote: E:\t1 /tmp/170.git 本地

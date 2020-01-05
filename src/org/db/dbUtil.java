@@ -185,15 +185,18 @@ public class dbUtil {
 	public static void main(String[] args) {
 			dbUtil d = dbUtil.getInstance();
 			d.Connect();
+			d.CreateUser("cn", "cn");
+			System.out.print(d.CheckUser("xxd", "xd"));
+			System.out.print(d.CheckUser("cn", "cn"));
 			//File f = FileChooser.ChooseDirectory();
 			//String s = f.getAbsolutePath().replace("\\", "\\\\");
 			//d.CreateUser("cn", "cn");
 			//d.CreateDir("test");
 //			d.DeleteDir("c111","r222");
 //			d.CreateDir("abc","ef");
-			d.DeleteAllRepo();
-			ArrayList<Repository> as = d.SelectDirs();
-			System.out.println(as);
+			//d.DeleteAllRepo();
+			//ArrayList<Repository> as = d.SelectDirs();
+			//System.out.println(as);
 //			System.out.println(d.CheckUser("xxd", "xd"));
 //			System.out.println(d.DeleteUser("xxd", "xd"));
 			d.Close();
