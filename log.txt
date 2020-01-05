@@ -236,3 +236,8 @@ Try to login with id=617539,name=,password=
 Login success
 Manual update: D:\test /tmp/140.git 本地
 Manual update success
+Try to login with id=872778,name=,password=
+Login success
+New repo: G:\\Everything
+
+Connect remote: G:\Everything /tmp/150.git 本地
