@@ -65,6 +65,7 @@ public class Main extends JFrame {
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
+			System.out.print("IOError while creating repoDialog");
 		}
 		
 		loginpanel = new JPanel();
@@ -102,6 +103,7 @@ public class Main extends JFrame {
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
+					System.out.print("IOError while writing log");
 				}
 			}
 		});
@@ -125,6 +127,7 @@ public class Main extends JFrame {
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
+					System.out.print("IOError while writing log");
 				}
 			}
 		});
@@ -156,9 +159,11 @@ public class Main extends JFrame {
 					} catch (FileNotFoundException e2) {
 						// TODO Auto-generated catch block
 						e2.printStackTrace();
+						System.out.print("FileNotFoundError while choosing pub file");
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
+						System.out.print("IOError while choosing pub file");
 					}
 					try {
 						Main.this.client.sendObject(msg);
@@ -166,6 +171,7 @@ public class Main extends JFrame {
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
+						System.out.print("IOError while choosing pub file");
 					}
 				}
 				
@@ -204,6 +210,7 @@ public class Main extends JFrame {
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
+					System.out.print("IOError while opening log");
 				}
 			}
 		});
@@ -260,6 +267,7 @@ public class Main extends JFrame {
 				SystemTray.getSystemTray().add(trayIcon);
 			} catch (AWTException e1) {
 				e1.printStackTrace();
+				System.out.print("AWTError while creating system tray");
 			}
 		}
 	}

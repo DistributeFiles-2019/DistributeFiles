@@ -55,6 +55,7 @@ public class Client extends Thread {
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					System.out.print("IOError while writing log");
 				}
 				if(msg.sc == 1) {
 					main.changeStatus();
@@ -72,6 +73,7 @@ public class Client extends Thread {
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					System.out.print("IOError while writing log");
 				}
 				if(msg.sc == 1) {
 					JOptionPane.showMessageDialog(main, "注销成功", "提示消息",JOptionPane.PLAIN_MESSAGE);
@@ -87,6 +89,7 @@ public class Client extends Thread {
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					System.out.print("IOError while writing log");
 				}
 				if(msg.sc == 1) {
 					JOptionPane.showMessageDialog(main, "创建成功", "提示消息",JOptionPane.PLAIN_MESSAGE);
@@ -100,6 +103,7 @@ public class Client extends Thread {
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					System.out.print("IOError while writing log");
 				}
 				if(msg.sc == 1) {
 					JOptionPane.showMessageDialog(main, "上传成功", "提示消息",JOptionPane.PLAIN_MESSAGE);
@@ -113,6 +117,7 @@ public class Client extends Thread {
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					System.out.print("IOError while writing log");
 				}
 				if(msg.sc == 1) {
 					JOptionPane.showMessageDialog(main, "连接成功", "提示消息",JOptionPane.PLAIN_MESSAGE);
@@ -124,6 +129,7 @@ public class Client extends Thread {
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					System.out.print("IOError while writing log");
 				}
 				if(msg.sc == 1) {
 					JOptionPane.showMessageDialog(main, "同步成功", "提示消息",JOptionPane.PLAIN_MESSAGE);
@@ -216,6 +222,7 @@ public class Client extends Thread {
 						Client.this.sendObject(new KeepAlive());
 					} catch (IOException e) {
 						e.printStackTrace();
+						System.out.print("IOError while keeping alive");
 						Client.this.stop();
 					}
 					lastSendTime = System.currentTimeMillis();
@@ -224,6 +231,7 @@ public class Client extends Thread {
 						Thread.sleep(checkDelay);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
+						System.out.print("InterruptedError while running, perhaps the server shut down");
 						Client.this.stop();
 					}
 				}
@@ -249,6 +257,7 @@ public class Client extends Thread {
 					}
 				} catch (Exception e) {
 					e.printStackTrace();
+					System.out.print("Error while client running");
 					Client.this.stop();
 				}
 			}
@@ -323,6 +332,7 @@ public class Client extends Thread {
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+				System.out.print("IOError while sending message");
 			}
 		} while (!in.equals("bye"));
 		/*if (socket == null || !socket.isConnected()) {
@@ -388,6 +398,7 @@ public class Client extends Thread {
 				} while (!in.equals("bye"));
 			} catch (IOException e) {
 				e.printStackTrace();
+				System.out.print("IOError while manual test");
 			} finally {
 				if (scanner != null) {
 					scanner.close();

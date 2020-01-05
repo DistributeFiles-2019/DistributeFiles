@@ -40,8 +40,10 @@ public class FileIO {
 			return s;
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
+			System.out.print("FileNotFoundError while reading file");
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.out.print("IOError while reading file");
 		} finally {
 			try {
 				if (null != bufferedReader)
@@ -52,6 +54,7 @@ public class FileIO {
 					is.close();
 			} catch (IOException e) {
 				e.printStackTrace();
+				System.out.print("IOError while reading file");
 			}
 		}
 		return new String("");
@@ -67,12 +70,14 @@ public class FileIO {
 			fw.write(content);
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.out.print("IOError while writing file");
 		} finally {
 			if (null != fw) {
 				try {
 					fw.close();
 				} catch (IOException e) {
 					e.printStackTrace();
+					System.out.print("IOError while writing file");
 				}
 			}
 		}
@@ -99,6 +104,7 @@ public class FileIO {
 			fw = new FileWriter(f, true);
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.out.print("IOError while creating file");
 		}
 		PrintWriter pw = new PrintWriter(fw);
 		pw.println(content);
@@ -109,6 +115,7 @@ public class FileIO {
 			fw.close();
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.out.print("IOError while creating file");
 		}
 	}
 }

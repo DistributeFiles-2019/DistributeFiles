@@ -56,6 +56,7 @@ public class repoDialog extends JDialog {
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
+					System.out.print("IOError while connect remote repo");
 				}
 			}
 		});
@@ -76,6 +77,7 @@ public class repoDialog extends JDialog {
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
+					System.out.print("IOError while manual updating");
 				}
 			}
 		});
@@ -104,12 +106,14 @@ public class repoDialog extends JDialog {
 					} catch (IOException e2) {
 						// TODO Auto-generated catch block
 						e2.printStackTrace();
+						System.out.print("IOError while create new local repo");
 					}
 					try {
 						frame.client.sendObject(msg);
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
+						System.out.print("IOError while sending message");
 					}
 				}
 				
@@ -132,6 +136,7 @@ public class repoDialog extends JDialog {
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
+			System.out.print("IOError while sending message");
 		}
 	}
 	
