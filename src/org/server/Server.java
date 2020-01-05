@@ -165,9 +165,8 @@ public class Server extends Thread {
 			if(msg.messageId == updateMessage.MessageID.CONNECTREMOTE) {
 				server.sendCmd("mkdir "+msg.currentDir);
 				if(server.createRemoteRepo(msg.remoteDir)) {
-					server.sendCmd("cd "+msg.currentDir+" && git init && git config receive.denyCurrentBranch ignore && "
-							+ "git add . && git commit -m \"new repo\" &&  git remote add origin "
-				+server.serverProperty.USER+"@"+server.serverProperty.HOST+":"+msg.remoteDir+" && git push origin master");
+					server.sendCmd("git init && git add . && git commit -m \"new repo\" &&  git remote add origin "
+				+server.serverProperty.USER+"@"+server.serverProperty.HOST+":"+msg.remoteDir+" && git push origin master",msg.currentDir);
 					
 					dbUtil d = dbUtil.getInstance();
 					d.Connect();
@@ -191,7 +190,7 @@ public class Server extends Thread {
 				
 			}else if(msg.messageId == updateMessage.MessageID.MANUALUPDATE) {
 				System.out.print("git remote add origin "+server.serverProperty.USER+"@"+server.serverProperty.HOST+":"+msg.remoteDir);
-				server.sendCmd("cd "+msg.currentDir+" && dir && git pull origin master && git pull origin master && git commit -m \"update\" && git push origin master");
+				server.sendCmd("dir && git pull origin master &&  git commit -m \"update\" && git push origin master",msg.currentDir);
 
 				Message rmsg = new Message();
 				rmsg.messageId = Message.MessageID.MANUALUPDATERESPONSE;
@@ -219,6 +218,26 @@ public class Server extends Thread {
 	public void sendCmd(String s) {
 		try {
 			Process p=Runtime.getRuntime().exec("cmd.exe /c "+s);
+			Scanner sc=new Scanner(p.getInputStream());
+			while(sc.hasNextLine()) {
+				System.out.print(sc.nextLine()+'\n');
+			}
+			while(p.isAlive());
+			if(p.exitValue()!=0) {
+				sc=new Scanner(p.getErrorStream());
+				while(sc.hasNextLine()) {
+					System.out.print(sc.nextLine()+'\n');
+				}
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.print("Error while sending command \""+s+"\"\n");
+		}
+	}
+	public void sendCmd(String s,String path) {
+		try {
+			Process p=Runtime.getRuntime().exec("cmd.exe /c "+s,null,new File(path));
 			Scanner sc=new Scanner(p.getInputStream());
 			while(sc.hasNextLine()) {
 				System.out.print(sc.nextLine()+'\n');

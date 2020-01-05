@@ -268,3 +268,48 @@ Login success
 New repo: E:\\t1
 
 Connect remote: E:\t1 /tmp/170.git 本地
+Connect remote success
+Manual update: E:\t1 /tmp/170.git 本地
+Manual update success
+Try to login with id=372563,name=,password=
+Login success
+Connect remote: D:\Icons /tmp/132.git 本地
+Connect remote fail
+Manual update: D:\Icons /tmp/132.git 本地
+Manual update success
+Connect remote: D:\test /tmp/140.git 本地
+Connect remote fail
+Try to login with id=451565,name=,password=
+Login success
+Manual update: E:\t1 /tmp/170.git 本地
+Manual update success
+Try to login with id=342664,name=,password=
+Login success
+Manual update: D:\Icons /tmp/132.git 本地
+Manual update success
+Try to login with id=927989,name=,password=
+Login success
+Manual update: D:\Icons /tmp/132.git 本地
+Manual update success
+Try to login with id=107967,name=,password=
+Login success
+New repo: F:\\yy
+
+Connect remote: F:\yy /tmp/200.git 本地
+Manual update: F:\yy /tmp/200.git 本地
+Try to login with id=302469,name=,password=
+Login success
+New repo: E:\\t2
+
+Connect remote: E:\t2 /tmp/300.git 本地
+Connect remote success
+Try to login with id=747833,name=,password=
+Login success
+Manual update: E:\t2 /tmp/300.git 本地
+Manual update success
+Manual update: D:\Icons /tmp/132.git 本地
+Manual update success
+New repo: F:\\play_Data\\Managed
+
+Connect remote: F:\play_Data\Managed /tmp/311.git 本地
+Connect remote success
