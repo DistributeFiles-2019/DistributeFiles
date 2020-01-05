@@ -241,3 +241,14 @@ Login success
 New repo: G:\\Everything
 
 Connect remote: G:\Everything /tmp/150.git 本地
+Connect remote success
+Manual update: G:\Everything /tmp/150.git 本地
+Try to login with id=820349,name=,password=
+Login success
+New repo: E:\\test
+
+Try to login with id=951644,name=,password=
+Login success
+New repo: E:\\t1\\t11
+
+Connect remote: E:\t1\t11 /tmp/160.git 本地
