@@ -1,0 +1,238 @@
+
+Try to login with id=155505,name=xxd,password=xd
+Login success
+Try to login with id=402076,name=xxd,password=xd
+Login success
+5
+5
+Try to login with id=499668,name=xxd,password=xd
+Login success
+r222远程
+Try to login with id=774811,name=xxd,password=xd
+Login success
+Connect remote: 123  本地
+
+Manual update: C:hydra_tmp_1547986645671  本地
+Manual update: C:UsersLenovoDocumentsAnno 2205  本地
+Try to login with id=639389,name=xxd,password=xd
+Login success
+Try to login with id=178878,name=xxd,password=xd
+Login success
+Try to login with id=365536,name=xxd,password=xd
+Login success
+Try to login with id=848170,name=xxd,password=xd
+Login success
+Try to login with id=845099,name=xxd,password=xd
+Login success
+Try to login with id=854806,name=xxd,password=xd
+Login success
+Try to login with id=660226,name=xxd,password=xd
+Login success
+Try to login with id=160585,name=xxd,password=xd
+Login success
+Try to login with id=196752,name=xxd,password=xd
+Login success
+Try to logout with id=196752
+Logout success
+Try to login with id=196752,name=xxd,password=xd
+Login success
+Try to logout with id=196752
+Logout success
+Try to login with id=196752,name=xx,password=xd
+Login success
+Try to logout with id=196752
+Logout success
+Try to login with id=196752,name=,password=
+Login success
+Try to login with id=518161,name=,password=
+Login success
+
+New repo: D:\\localgit
+
+Connect remote: D:\localgit /tmp/realtest.git 本地
+Manual update: D:\localgit /tmp/realtest.git 本地
+Manual update: D:\localgit /tmp/realtest.git 本地
+Try to login with id=232970,name=,password=
+Login success
+Try to login with id=840216,name=,password=
+Login success
+Connect remote: D:\localgit /tmp/test0.git 本地
+Try to logout with id=840216
+Try to login with id=408262,name=,password=
+Login success
+Try to logout with id=408262
+Logout success
+Try to login with id=408262,name=,password=
+Login success
+Try to login with id=83857,name=,password=
+Login success
+Connect remote: D:\localgit  本地
+Connect remote: C:\Users\Lenovo\Documents\ALI213\368500  本地
+Try to login with id=405176,name=,password=
+Login success
+Connect remote: D:\localgit  本地
+Try to login with id=634225,name=,password=
+Login success
+Connect remote: D:\localgit  本地
+Connect remote success
+Connect remote: D:\localgit /tmp/test00 本地
+Connect remote success
+Manual update: D:\localgit /tmp/test00 本地
+Manual update success
+Connect remote: D:\localgit /tmp/test00.git 本地
+Connect remote fail
+Connect remote: D:\localgit /tmp/test00.git 本地
+Connect remote fail
+New repo: D:\\data
+
+Connect remote: D:\data /tmp/test000.git 本地
+Connect remote success
+Connect remote: D:\data /tmp/test000.git 本地
+Connect remote fail
+Try to login with id=886727,name=,password=
+Login success
+New repo: D:\\IR
+
+Connect remote: D:\IR /tmp/ir.git 本地
+Connect remote success
+Try to login with id=492961,name=,password=
+Login success
+Connect remote: D:\IR /tmp/ir.git 本地
+Connect remote fail
+Manual update: D:\IR /tmp/ir.git 本地
+Manual update success
+New repo: D:\\hw9
+
+Connect remote: D:\hw9 /tmp/irrr.git 本地
+Connect remote success
+Try to login with id=31328,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\Avalanche Studios\\theHunter Call of the Wild
+
+Connect remote: C:\Users\Lenovo\Documents\Avalanche Studios\theHunter Call of the Wild /tmp/abc.git 本地
+Connect remote success
+Try to login with id=530586,name=,password=
+Login success
+Connect remote: C:\Users\Lenovo\Documents\Avalanche Studios\theHunter Call of the Wild /tmp/abc.git 本地
+Connect remote fail
+Try to login with id=605152,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\AtomicTorchStudio
+
+Connect remote: C:\Users\Lenovo\Documents\AtomicTorchStudio /tmp/bbb.git 本地
+Connect remote success
+Try to login with id=840716,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\ALI213\\368500
+
+Connect remote: C:\Users\Lenovo\Documents\ALI213\368500 \tmp\ddd.git 本地
+Connect remote success
+Connect remote: C:\Users\Lenovo\Documents\ALI213\368500 /tmp/ddd.git 本地
+Connect remote fail
+Try to login with id=551648,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\Anno 2205
+
+Connect remote: C:\Users\Lenovo\Documents\Anno 2205 /tmp/123.git 本地
+Connect remote success
+Try to login with id=749162,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\Battlefield V Open Beta
+
+Connect remote: C:\Users\Lenovo\Documents\Battlefield V Open Beta /tmp/233.git 本地
+Connect remote success
+Try to login with id=699639,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\Command and Conquer Generals Data
+
+Connect remote: C:\Users\Lenovo\Documents\Command and Conquer Generals Data /tmp/111.git 本地
+Connect remote success
+Try to login with id=385774,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\CFSystem\\Replay
+
+Connect remote: C:\Users\Lenovo\Documents\CFSystem\Replay /tmp/124.git 本地
+Connect remote success
+Manual update: C:\Users\Lenovo\Documents\CFSystem\Replay /tmp/124.git 本地
+Manual update success
+Try to login with id=769986,name=,password=
+Login success
+Manual update: C:\Users\Lenovo\Documents\CFSystem\Replay /tmp/124.git 本地
+Manual update success
+Try to login with id=396631,name=,password=
+Login success
+Manual update: C:\Users\Lenovo\Documents\CFSystem\Replay /tmp/124.git 本地
+Manual update success
+Try to login with id=894268,name=,password=
+Login success
+Manual update: C:\Users\Lenovo\Documents\CFSystem\Replay /tmp/124.git 本地
+Manual update success
+Try to login with id=899998,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\DeadIslandRiptideDE
+
+Connect remote: C:\Users\Lenovo\Documents\DeadIslandRiptideDE /tmp/125.git 本地
+Manual update: C:\Users\Lenovo\Documents\DeadIslandRiptideDE /tmp/125.git 本地
+Connect remote success
+Try to login with id=922776,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\Klei\\Agreements
+
+Connect remote: C:\Users\Lenovo\Documents\Klei\Agreements /tmp/126.git 本地
+Connect remote success
+Manual update: C:\Users\Lenovo\Documents\Klei\Agreements /tmp/126.git 本地
+Manual update success
+Try to login with id=70310,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\Europa
+
+Connect remote: C:\Users\Lenovo\Documents\Europa /tmp/127.git 本地
+Connect remote success
+Manual update: C:\Users\Lenovo\Documents\Europa /tmp/127.git 本地
+Manual update success
+Try to login with id=303605,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\The Witcher 3\\gamesaves
+
+Connect remote: C:\Users\Lenovo\Documents\The Witcher 3\gamesaves /tmp/128.git 本地
+Try to login with id=104860,name=,password=
+Login success
+Connect remote: C:\Users\Lenovo\Documents\The Witcher 3\gamesaves /tmp/129.git 本地
+Connect remote success
+Manual update: C:\Users\Lenovo\Documents\The Witcher 3\gamesaves /tmp/129.git 本地
+Manual update success
+Try to login with id=867977,name=,password=
+Login success
+New repo: C:\\Users\\Lenovo\\Documents\\DyingLight\\out
+
+Connect remote: C:\Users\Lenovo\Documents\DyingLight\out /tmp/130.git 本地
+Connect remote success
+Manual update: C:\Users\Lenovo\Documents\DyingLight\out /tmp/130.git 本地
+Manual update success
+Try to login with id=36929,name=,password=
+Login success
+Manual update: C:\Users\Lenovo\Documents\DyingLight\out /tmp/130.git 本地
+Manual update success
+Try to login with id=892512,name=,password=
+Login success
+New repo: D:\\h1
+
+Connect remote: D:\h1 /tmp/131.git 本地
+Manual update: D:\h1 /tmp/131.git 本地
+Manual update: D:\h1 /tmp/131.git 本地
+Try to login with id=269525,name=,password=
+Login success
+New repo: D:\\Icons
+
+Connect remote: D:\Icons /tmp/132.git 本地
+Connect remote success
+Try to login with id=648031,name=,password=
+Login success
+New repo: D:\\test
+
+Connect remote: D:\test /tmp/140.git 本地
+Connect remote success
+Try to login with id=617539,name=,password=
+Login success
+Manual update: D:\test /tmp/140.git 本地
+Manual update success
