@@ -21,6 +21,7 @@ public class dbUtil {
 			conn = DriverManager.getConnection(url,user,password);
 		}catch (Exception e) {
 			e.printStackTrace();
+			System.out.print("Error while connecting mysql");
 			// TODO: handle exception
 		}
 	}
@@ -31,6 +32,7 @@ public class dbUtil {
 		}
 		catch (Exception e) {
 			e.printStackTrace();
+			System.out.print("Error while closing mysql");
 			
 		}
 		finally {
@@ -45,6 +47,7 @@ public class dbUtil {
 			}
 			catch (Exception e) {
 				e.printStackTrace();
+				System.out.print("Error while checking mysql connect");
 				return false;
 			}
 		}
@@ -61,6 +64,7 @@ public class dbUtil {
 		}
 		catch (Exception e){
 			e.printStackTrace();
+			System.out.print("Error while creating user");
 			return false;
 		}
 	}
@@ -72,6 +76,7 @@ public class dbUtil {
 		}
 		catch (Exception e){
 			e.printStackTrace();
+			System.out.print("Error while deleting user");
 			return false;
 		}
 	}
@@ -84,6 +89,7 @@ public class dbUtil {
 		}
 		catch (Exception e){
 			e.printStackTrace();
+			System.out.print("Error while deleting all users");
 			return false;
 		}
 	}
@@ -97,6 +103,7 @@ public class dbUtil {
 		}
 		catch (Exception e){
 			e.printStackTrace();
+			System.out.print("Error while checking user");
 			return false;
 		}
 	}
@@ -110,6 +117,7 @@ public class dbUtil {
 		}
 		catch (Exception e){
 			e.printStackTrace();
+			System.out.print("Error while creating dir");
 			return false;
 		}
 	}
@@ -122,6 +130,7 @@ public class dbUtil {
 		}
 		catch (Exception e){
 			e.printStackTrace();
+			System.out.print("Error while deleting dir");
 			return false;
 		}
 	}
@@ -144,6 +153,7 @@ public class dbUtil {
 		}
 		catch (Exception e){
 			e.printStackTrace();
+			System.out.print("Error while select from repo");
 			return new ArrayList<Repository>();
 		}
 	}
@@ -156,6 +166,7 @@ public class dbUtil {
 		}
 		catch (Exception e){
 			e.printStackTrace();
+			System.out.print("Error while deleting repo");
 			return false;
 		}
 	}

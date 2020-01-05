@@ -114,7 +114,7 @@ public class Server extends Thread {
 				Message rmsg = new Message();
 				rmsg.messageId = Message.MessageID.LOGINRESPONSE;
 				//最后记得把true改成验证
-				if(true) {
+				if(suc) {
 					if(userStateList.get(msg.id) == UserState.Online) {
 						rmsg.info = "Already online";
 						rmsg.sc = 3;
@@ -266,6 +266,7 @@ public class Server extends Thread {
 		}
 		catch(Exception e){
 			System.out.println(e);
+			System.out.print("Error while creating remote repo");
 			return false;
 		}
 	}

@@ -15,6 +15,7 @@ public class PropertyLoader {
 		}
 		catch (IOException e){
 			e.printStackTrace();
+			System.out.print("IOError while reading property");
 			return null;
 		}
 	}
