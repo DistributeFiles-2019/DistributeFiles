@@ -249,7 +249,7 @@ public class Server extends Thread {
 	        OutputStream out = channel.getOutputStream();
 	        s = s.replace("\\", "\\\\");
 	        System.out.print(s);
-	        out.write(("git init "+s+" \n\r").getBytes());
+	        out.write(("git --bare init "+s+" \n\r").getBytes());
 //	        out.write(("cd "+s+" \n\r").getBytes());
 //	        out.write(("git init \n\r").getBytes());
 	        out.flush();
